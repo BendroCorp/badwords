@@ -1,7 +1,7 @@
 {
-  "name": "bad-words",
-  "version": "3.0.3",
-  "description": "A javascript filter for bad words",
+  "name": "@bendrocorp/bad-words",
+  "version": "1.0.0",
+  "description": "Javascript filter for bad words",
   "main": "./lib/badwords",
   "directories": {
     "test": "test"
@@ -12,7 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/web-mech/badwords.git"
+    "url": "git://github.com/BendroCorp/badwords.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "curse",
@@ -28,7 +31,6 @@
     "documentation": "^5.3.3",
     "mocha": "^5.2.0"
   },
-  "author": "Mike P.",
   "license": "MIT",
   "engines": {
     "node": ">=8.0.0"
